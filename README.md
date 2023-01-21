@@ -4,7 +4,11 @@ This is a raw, but still convenient CLI client for Twitch chat. The only two aut
 
 ## Usage
 
-Example: `TW_OAUTH=xyzxyzxyzxyzxyz raw-twchat-cli -replace-unprintables`
+Example:
+```
+go install github.com/3ventic/raw-twchat@latest
+env TW_OAUTH=xyzxyzxyzxyzxyz raw-twchat -replace-unprintables
+```
 
 ### Options
 
